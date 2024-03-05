@@ -1,0 +1,63 @@
+#another-element {
+    /* Adjust the max height and margin as needed */
+    max-height: 40px; 
+    margin-right: 10px;
+}
+
+.some-other-element {
+    /* Ensure the footer sticks to the bottom of the page */
+    bottom: 0;
+    width: 100%;
+    position: relative;
+}
+
+.some-iframe-class {
+    /* Set dimensions for iframes */
+    height: 300px;
+    width: 100%;
+    border: 0;
+}
+
+.resume-section {
+    /* Add margin to the left of this section */
+    margin-left: 20px;
+}
+
+.image-container {
+    /* Position image container relatively */
+    position: relative;
+    width: 100%;
+}
+  
+.image-text {
+    /* Position text over the image */
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    background-color: rgba(34, 34, 34, 0.649);
+    border-radius: 5px;
+    padding: 8px;
+}
+
+/* Adjust font styles for the text over the image */
+.image-text h1 {
+    font-family: "Arial", sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+  
+.image-text p {
+    font-family: "Arial", sans-serif;
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+.full-width-image {
+    /* Make the image occupy the full width of its container */
+    width: 100%;
+    display: block;
+}
